@@ -20,7 +20,7 @@ public class JobLogger
             String sParam = String.Empty;
             int msgType  = 0;
 
-            message.Trim();
+            message = message.Trim();
 
             if (message == null)
                 ReturnValue = "Invalid parameter [message]";
